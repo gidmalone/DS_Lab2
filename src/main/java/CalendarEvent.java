@@ -1,6 +1,7 @@
-package calendar;
 import java.util.Calendar;
 import java.util.GregorianCalendar;
+
+import calendar.MeetingCalendar;
 
 public abstract class CalendarEvent {
 	private String description;
@@ -16,7 +17,7 @@ public abstract class CalendarEvent {
 		this.endTime = endTime;
 	}
 	
-	public void scheduleEvent(Calendar MeetingCalendar) {
+	public void scheduleEvent(MeetingCalendar cal) {
 	}
 
 	public String getDescription() {

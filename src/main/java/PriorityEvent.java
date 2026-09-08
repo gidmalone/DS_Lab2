@@ -1,5 +1,4 @@
-package calendar;
-
+import java.util.Calendar;
 import java.util.GregorianCalendar;
 
 public class PriorityEvent extends CalendarEvent {
@@ -8,5 +7,7 @@ public class PriorityEvent extends CalendarEvent {
 		super(description, location, startTime, endTime);
 		// TODO Auto-generated constructor stub
 	}
-
+	
+	public void scheduleEvent(Calendar MeetingCalendar) {
+	}
 }
