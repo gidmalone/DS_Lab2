@@ -1,5 +1,6 @@
 import java.util.Calendar;
 import java.util.GregorianCalendar;
+import calendar.MeetingCalendar;
 
 public class WeeklyEvent extends CalendarEvent {
 	private GregorianCalendar repeatUntil;
@@ -10,7 +11,7 @@ public class WeeklyEvent extends CalendarEvent {
 		// TODO Auto-generated constructor stub
 	}
 	
-	public void scheduleEvent(Calendar MeetingCalendar) {
+	public void scheduleEvent(MeetingCalendar cal) {
 	}
 
 	public GregorianCalendar getRepeatUntil() {

@@ -1,5 +1,6 @@
 import java.util.Calendar;
 import java.util.GregorianCalendar;
+import calendar.MeetingCalendar;
 
 public class PriorityEvent extends CalendarEvent {
 
@@ -8,6 +9,6 @@ public class PriorityEvent extends CalendarEvent {
 		// TODO Auto-generated constructor stub
 	}
 	
-	public void scheduleEvent(Calendar MeetingCalendar) {
+	public void scheduleEvent(MeetingCalendar cal) {
 	}
 }
